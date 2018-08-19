@@ -4,6 +4,11 @@
 <meta name="theme-color" content="{{ theme.android_chrome_color }}">
 <meta name="robots" content="noindex" />
 
+<style>
+  :root { --main-color: {{ theme.theme_color }}; }
+  .header { background-image: url("{{ theme.cover_image }}") !important; }
+</style>
+
 
 {% if theme.needmoreshare2.enable %}
   {% set needmoreshare2_css = url_for(theme.vendors._internal + '/needsharebutton/needsharebutton.css') %}

@@ -31,6 +31,24 @@ cache:
   # Default path: source/css/_custom/custom.styl
   #styles: source/_data/styles.styl
 
+# ---------------------------------------------------------------
+# NextBlue Settings
+# ---------------------------------------------------------------
+
+# Theme color (dark colors are preferred)
+theme_color: "#0d8aba"
+
+# Cover image
+cover_image: /images/maxime-le-conte-des-floris-151374-unsplash-grayscale.jpg
+
+# Iconfont
+#
+# First, download the font package from Iconfont website. Then copy all the contents in `stylesheet.css` to `/source/css/_custom/custom.styl`, and move all the font files to `/source/fonts`. Note that you also need to modify the font paths in the stylesheet file.
+#
+# In the Sidebar Settings below, enter the names of Iconfont icons in "social" section as you enter the names of FontAwesome icons. Example: 知乎: https://www.zhihu.com/people/yourname || zhihu
+#
+# Finally, put the corresponding keys here in a array.
+iconfont: [知乎]
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -175,7 +193,6 @@ social_icons:
   # To encrypt links above use https://www.base64encode.org
   # Example encoded link: `GitHub: aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQ= || github`
   exturl: false
-  iconfont: [知乎]
 
 # Follow me on GitHub banner in right-top corner.
 # Usage: `permalink || title`
