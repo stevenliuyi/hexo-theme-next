@@ -105,8 +105,10 @@
                 #}{% else %}{#
                   #}<a href="{{ link.split('||')[0] | trim }}" target="_blank" title="{{ name }}"{% if theme.seo %} rel="external nofollow"{% endif %}>{#
                 #}{% endif %}{#
-                  #}{% if theme.social_icons.enable %}{#
+                  #}{% if theme.social_icons.enable && !theme.social_icons.iconfont.includes(name) %}{#
                     #}<i class="fa fa-fw fa-{{ link.split('||')[1] | trim | default('globe') }}"></i>{#
+                  #}{% elseif theme.social_icons.enable && theme.social_icons.iconfont.includes(name) %}{#
+                    #}<i class="iconfont icon-{{ link.split('||')[1] | trim }}"></i>{#
                   #}{% endif %}{#
                   #}{% if not theme.social_icons.icons_only %}{#
                     #}{{ name }}{#
