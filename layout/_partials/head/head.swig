@@ -6,7 +6,7 @@
 
 <style>
   :root { --main-color: {{ theme.theme_color }}; }
-  .header { background-image: url("{{ theme.cover_image }}") !important; }
+  .header { background-image: url("{{ theme.banner_image }}") !important; }
 </style>
 
 

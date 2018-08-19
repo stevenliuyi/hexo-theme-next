@@ -38,8 +38,8 @@ cache:
 # Theme color (dark colors are preferred)
 theme_color: "#0d8aba"
 
-# Cover image
-cover_image: /images/maxime-le-conte-des-floris-151374-unsplash-grayscale.jpg
+# Banner image
+banner_image: /images/maxime-le-conte-des-floris-151374-unsplash-grayscale.jpg
 
 # Iconfont
 #
