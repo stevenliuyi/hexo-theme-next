@@ -1,4 +1,16 @@
 // Custom styles.
+@font-face {
+    font-family: 'FZFengYaKaiSongS';
+    src: url('/fonts/FZFENGYKS_DAJW--GB1-0.eot');
+    src: url('/fonts/FZFENGYKS_DAJW--GB1-0.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FZFENGYKS_DAJW--GB1-0.woff2') format('woff2'),
+        url('/fonts/FZFENGYKS_DAJW--GB1-0.woff') format('woff'),
+        url('/fonts/FZFENGYKS_DAJW--GB1-0.ttf') format('truetype'),
+        url('/fonts/FZFENGYKS_DAJW--GB1-0.svg#FZFENGYKS_DAJW--GB1-0') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
 :root {
   --main-color: #0d8aba;
 }
@@ -31,6 +43,12 @@ a:hover {
   background-color: var(--main-color);
 }
 
+.site-title {
+  font-family: 'FZFengYaKaiSongS';
+  font-size: 32px;
+  font-weight: 800;
+}
+
 .brand:hover {
   background: transparent;
   color: var(--main-color);
@@ -40,8 +58,16 @@ a:hover {
   -webkit-box-shadow: inset 0px 0px 0px 4px var(--main-color);
   -moz-box-shadow: inset 0px 0px 0px 4px var(--main-color);
   box-shadow: inset 0px 0px 0px 4px var(--main-color);
+  transition: background .5s;
 }
 
+.site-nav {
+  border-bottom: none;
+}
+
+.menu-item > a:hover {
+  color: #222;  
+}
 .posts-expand .post-title-link:hover {
   color: var(--main-color);
 }
@@ -58,12 +84,39 @@ a:hover {
   color: #fff;
 }
 
-.sidebar-inner * a {
+.sidebar-inner a {
   color: #fff;
+}
+
+.sidebar-inner a:hover {
+  color: #ddd;
 }
 
 .sidebar-toggle {
   background-color: var(--main-color);
+}
+
+.links-of-author-item > a {
+  border: none;
+}
+
+.links-of-author-item > a:before {
+  display:none; 
+}
+
+.post-toc ol a,
+.sidebar-nav .sidebar-nav-active {
+  color: #fff;
+  border-bottom-color: var(--main-color);
+}
+
+.post-toc .nav .active > a,
+.post-toc .nav .active > a:hover,
+.post-toc ol a:hover,
+.sidebar-nav .sidebar-nav-active:hover {
+  color: #fff;
+  border-bottom-color: #fff;
+  transition: border-bottom-color ease-in .2s;
 }
 
 .page-post-detail .sidebar-toggle-line {
@@ -74,3 +127,13 @@ a:hover {
   background-color: var(--main-color);
 }
 
+.pagination .prev:hover,
+.pagination .next:hover,
+.pagination .page-number:hover {
+  border-color: var(--main-color);
+}
+
+.posts-expand .post-title,
+.posts-expand .post-title-link {
+  font-weight: bold;
+}

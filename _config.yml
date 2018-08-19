@@ -118,13 +118,13 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
   tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
+  about: https://yliu.io || user
 
 # Enable/Disable menu icons / item badges.
 menu_settings:
@@ -366,7 +366,7 @@ custom_logo:
 highlight_theme: normal
 
 # Enable "cheers" for archive page.
-cheers_enabled: true
+cheers_enabled: false
 
 
 # ---------------------------------------------------------------
@@ -548,14 +548,14 @@ gitment:
 #           Technorati,Posterous,Tumblr,GoogleBookmarks,Newsvine,
 #           Evernote,Friendfeed,Vkontakte,Odnoklassniki,Mailru
 needmoreshare2:
-  enable: false
+  enable: true
   postbottom:
-    enable: false
+    enable: true
     options:
-      iconStyle: box
+      iconStyle: default
       boxForm: horizontal
-      position: bottomCenter
-      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
+      position: topCenter
+      networks: Weibo,Wechat,QQZone,Twitter,Facebook
   float:
     enable: false
     options:

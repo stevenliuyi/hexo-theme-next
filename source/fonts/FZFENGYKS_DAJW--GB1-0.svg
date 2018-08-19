@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20170731 at Tue Mar  7 06:56:07 2017
+ By Aleksey,,,
+Copyright(c) Beijing Founder Electronics Co.,Ltd.2017
+</metadata>
+<defs>
+<font id="FZFENGYKS_DAJW--GB1-0" horiz-adv-x="1000" >
+  <font-face 
+    font-family="FZFengYaKaiSongS ExtraBold"
+    font-weight="800"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="2 0 9 0 0 0 0 0 0 0"
+    ascent="850"
+    descent="-150"
+    bbox="100 -6.04167 901 707"
+    underline-thickness="50"
+    underline-position="-175"
+    unicode-range="U+7ACB-7FBD"
+  />
+<missing-glyph 
+ />
+    <glyph glyph-name=".notdef" 
+ />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" 
+ />
+    <glyph glyph-name="uni7ACB" unicode="&#x7acb;" 
+d="M248 434l52 5l330 46q15 1 31 13q11 6 20 16q4 5 11 2l49 -21q1 -5 -6 -11q-10 -6 -26 -9l-445 -61zM376 660l10 24q59 10 106 1q41 -8 61 -28q20 -21 14 -52q-3 -22 -19 -49l-40 -8q-24 36 -56 63q-30 26 -76 49zM308 330l18 18q69 -16 110 -52q32 -29 36 -61
+q3 -29 -12 -57q-15 -27 -38 -34l-40 1q-6 41 -25 90q-23 58 -49 95zM100 55q32 1 58 4l349 39q39 129 57 259q6 32 -8 50l28 29l102 -47q12 -7 8 -21q-18 -58 -67 -146q-41 -72 -81 -119l217 24q26 5 47 15q17 10 26 18q8 5 12 3l53 -27q-1 -5 -9 -11q-13 -6 -34 -9
+l-739 -82z" />
+    <glyph glyph-name="uni7FBD" unicode="&#x7fbd;" 
+d="M504 518l10 23q26 3 60 -2q25 -3 41 -11q34 -17 36 -48q0 -34 -30 -60l-40 -7q-10 28 -29 56q-22 31 -48 49zM162 493l10 23q26 3 60 -2q25 -3 41 -11q34 -17 36 -48q2 -33 -30 -60l-40 -7q-10 28 -29 56q-22 31 -48 49zM482 294l22 34q26 -10 48 2q40 21 130 84l20 -19
+q-51 -92 -112 -164q-20 -20 -41 -3zM104 241l22 34q27 -11 48 2q73 44 165 115l20 -19q-60 -90 -147 -195q-20 -20 -41 -3zM193 609q18 2 38 6l132 27q13 2 28 12q10 6 19 15q8 6 14 3l68 -47q3 -8 -2 -15l-10 -20q-5 -9 -5 -19v-468q0 -44 -24 -67t-66 -22q-2 31 -24 59
+q-21 20 -52 23l3 25q23 -2 38 3q20 4 20 28v470l-158 -33zM511 638q18 2 39 6l154 32q13 2 28 12q10 6 19 15q8 6 14 3l68 -47q3 -8 -2 -15l-10 -20q-5 -9 -5 -19v-522q0 -44 -24 -67t-66 -22q-2 31 -24 59q-21 20 -52 23l3 25q23 -2 38 3q20 4 20 28v524l-181 -38z" />
+  </font>
+</defs></svg>
