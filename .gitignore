@@ -21,4 +21,4 @@ source/lib/ua-parser-js/*
 
 !source/lib/velocity/
 
-*.sw*
+*.sw?
