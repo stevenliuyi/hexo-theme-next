@@ -50,6 +50,12 @@ banner_image: /images/maxime-le-conte-des-floris-151374-unsplash-grayscale.jpg
 # Finally, put the corresponding keys here in a array.
 iconfont: [知乎]
 
+# Sidebar footer
+# Display "powered by" and "theme by" information in the sidebar.
+sidebar_footer:
+  powered: true
+  theme: true
+
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
@@ -95,13 +101,13 @@ footer:
   # -------------------------------------------------------------
   powered:
     # Hexo link (Powered by Hexo).
-    enable: true
+    enable: false
     # Version info of Hexo after Hexo link (vX.X.X).
     version: false
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
+    enable: false
     # Version info of NexT after scheme info (vX.X.X).
     version: false
   # -------------------------------------------------------------

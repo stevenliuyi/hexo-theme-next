@@ -7,6 +7,7 @@ NextBlue is compatible with all the NexT settings, but in addition you are able 
 - Choose a theme color
 - Add a banner image
 - Use icons from Iconfont as social icons (useful when you cannot find suitable icons in Font Awesome)
+- Display "powered by" and "theme by" information in the sidebar
 
 ### Installation
 
