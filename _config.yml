@@ -64,6 +64,9 @@ tag_style:
   icon: true
   border: true
 
+# First you need to enable Needmoreshare2 float button in the Third Party Services Settings below. There are two options here: "default" would maintain the original style, and "next" would put the button below the sidebar toggle button and match its style.
+needmoreshare_float_style: next
+
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
@@ -582,19 +585,19 @@ gitment:
 needmoreshare2:
   enable: true
   postbottom:
-    enable: true
+    enable: false
     options:
       iconStyle: default
       boxForm: horizontal
       position: topCenter
       networks: Weibo,Wechat,QQZone,Twitter,Facebook
   float:
-    enable: false
+    enable: true
     options:
-      iconStyle: box
+      iconStyle: default
       boxForm: horizontal
       position: middleRight
-      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
+      networks: Weibo,Wechat,QQZone,Twitter,Facebook
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/

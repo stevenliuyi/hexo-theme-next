@@ -11,6 +11,7 @@ NextBlue is compatible with all the NexT settings, but in addition you are able 
 - Add link to the author name in the sidebar
 - Display "powered by" and "theme by" information in the sidebar
 - Customize the display of tags in the posts
+- Change the style of Needmoreshare2 button to match the theme
 
 Besides, there is a new tag `wp` you can use to easily link to Wikipedia articles.
 

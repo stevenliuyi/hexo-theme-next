@@ -113,6 +113,43 @@ a:hover {
 
 .sidebar-toggle {
   background-color: var(--main-color);
+  if (hexo-config("needmoreshare2.enable") and hexo-config("needmoreshare2.float.enable") and hexo-config("needmoreshare_float_style") == "next") { bottom: 71px; }
+}
+
+.sidebar-share {
+  position: fixed !important;
+  left: auto !important;
+  right: 30px !important;
+  bottom: 45px !important;
+  width: 14px !important;
+  height: 14px !important;
+  padding: 5px !important;
+  background: var(--main-color) !important;
+  line-height: 0 !important;
+  z-index: 1050 !important;
+  cursor: pointer !important;
+  color: #fff !important;
+  -webkit-transform: translateZ(0) !important;
+  font-size: 14px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  +tablet() {
+    fixbutton() if hexo-config('sidebar.onmobile');
+    hide() if not hexo-config('sidbar.onmobile');
+  }
+  +mobile() {
+    fixbutton() if hexo-config('sidebar.onmobile');
+    hide() if not hexo-config('sidbar.onmobile');
+  }
+}
+
+#needsharebutton-float {
+  if (hexo-config('needmoreshare2.enable') and hexo-config('needmoreshare2.float.enable') and hexo-config('needmoreshare_float_style') == 'next') {
+    right: 380px !important;
+    bottom: 32px !important;
+  }
 }
 
 .site-author-image {

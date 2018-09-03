@@ -6,6 +6,13 @@
       <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
+  {% if theme.needmoreshare2.enable and theme.needmoreshare2.float.enable and theme.needmoreshare_float_style == "next" %}
+    <div id="needsharebutton-float">
+      <span class="sidebar-share">
+        <i class="fa fa-share-alt" aria-hidden="true"></i>
+      </span>
+    </div>
+  {% endif %}
 
   <aside id="sidebar" class="sidebar">
     {% if theme.sidebar.onmobile %}

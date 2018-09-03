@@ -73,7 +73,7 @@
       </div>
     {% endif %}
 
-    {% if theme.needmoreshare2.enable and theme.needmoreshare2.float.enable %}
+    {% if theme.needmoreshare2.enable and theme.needmoreshare2.float.enable and theme.needmoreshare_float_style == "default" %}
       <div id="needsharebutton-float">
         <span class="btn">
           <i class="fa fa-share-alt" aria-hidden="true"></i>
