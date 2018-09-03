@@ -64,8 +64,10 @@ tag_style:
   icon: true
   border: true
 
-# First you need to enable Needmoreshare2 float button in the Third Party Services Settings below. There are two options here: "default" would maintain the original style, and "next" would put the button below the sidebar toggle button and match its style.
-needmoreshare_float_style: next
+# For the float setting: first you need to enable Needmoreshare2 float button in the Third Party Services Settings below. There are two options here: "default" would maintain the original style, and "next" would put the button below the sidebar toggle button and match its style.
+needmoreshare_style:
+  float: next
+  monochrome: true # only works when Needmoreshare2 icon style set to default
 
 # ---------------------------------------------------------------
 # Site Information Settings

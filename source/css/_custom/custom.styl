@@ -113,7 +113,7 @@ a:hover {
 
 .sidebar-toggle {
   background-color: var(--main-color);
-  if (hexo-config("needmoreshare2.enable") and hexo-config("needmoreshare2.float.enable") and hexo-config("needmoreshare_float_style") == "next") { bottom: 71px; }
+  if (hexo-config('needmoreshare2.enable') and hexo-config('needmoreshare2.float.enable') and hexo-config('needmoreshare_style.float') == 'next') { bottom: 71px; }
 }
 
 .sidebar-share {
@@ -146,9 +146,22 @@ a:hover {
 }
 
 #needsharebutton-float {
-  if (hexo-config('needmoreshare2.enable') and hexo-config('needmoreshare2.float.enable') and hexo-config('needmoreshare_float_style') == 'next') {
+  if (hexo-config('needmoreshare2.enable') and hexo-config('needmoreshare2.float.enable') and hexo-config('needmoreshare_style.float') == 'next') {
     right: 380px !important;
     bottom: 32px !important;
+  }
+}
+
+.need-share-button_link {
+  if (hexo-config('needmoreshare_style.monochrome')) {
+    color: #555 !important;
+  }
+}
+
+.need-share-button_link:hover {
+  if (hexo-config('needmoreshare_style.monochrome')) {
+    color: var(--main-color) !important;
+    opacity: 1 !important;
   }
 }
 
