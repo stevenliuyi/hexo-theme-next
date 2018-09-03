@@ -59,6 +59,11 @@ sidebar_footer:
   powered: true
   theme: true
 
+# Customize tag styles in the posts
+tag_style:
+  icon: true
+  border: true
+
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------

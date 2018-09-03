@@ -10,6 +10,7 @@ NextBlue is compatible with all the NexT settings, but in addition you are able 
 - Use icons from Iconfont as social icons (useful when you cannot find suitable icons in Font Awesome)
 - Add link to the author name in the sidebar
 - Display "powered by" and "theme by" information in the sidebar
+- Customize the display of tags in the posts
 
 Besides, there is a new tag `wp` you can use to easily link to Wikipedia articles.
 
