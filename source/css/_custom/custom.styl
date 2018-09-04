@@ -198,7 +198,7 @@ a:hover {
 }
 
 .links-of-author-item-zhihu > a {
-  margin-bottom: -2px !important;
+  margin-bottom: -1px !important;
 }
 
 .post-toc ol a,
@@ -339,3 +339,18 @@ a:hover {
   bottom: 0;
   margin: auto;
 }
+
+/* modify balloon css */
+.links-of-author-item:before {
+  margin-bottom: -3px !important;
+}
+
+.links-of-author-item:after {
+  margin-bottom: 3px !important;
+}
+
+.links-of-author-item.hidden:before,
+.links-of-author-item.hidden:after {
+  display: none;
+}
+
