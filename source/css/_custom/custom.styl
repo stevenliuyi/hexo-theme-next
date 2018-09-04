@@ -301,3 +301,16 @@ a:hover {
   color: #fff;
   transition: all .5s;
 }
+
+.footnote-backref {
+  visibility: hidden;
+  word-spacing: -999px;
+  letter-spacing: -999px;
+}
+
+.footnote-backref:after {
+  visibility: visible;
+  content: '\21A9\FE0E';
+  word-spacing: normal;
+  letter-spacing: normal;
+}
