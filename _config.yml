@@ -50,6 +50,11 @@ banner_image: /images/maxime-le-conte-des-floris-151374-unsplash-grayscale.jpg
 # Finally, put the corresponding keys here in a array.
 iconfont: [知乎]
 
+# After enable Wechat QR code, you also need to add a social link in the Sidebar Settings with "weixin" icon
+wechat_qrcode:
+  enable: true
+  qrcode: /images/wechat-qrcode.png
+
 # Sidebar author link
 sidebar_author_url: https://yliu.io
 
@@ -204,6 +209,7 @@ social:
   #Instagram: https://instagram.com/yourname || instagram
   #Skype: skype:yourname?call|chat || skype
   知乎: https://www.zhihu.com/people/stevenliuyi || zhihu
+  微信: https://u.wechat.com/ECGyCuwsPOVsnepYwv6dXa4 || weixin
 
 social_icons:
   enable: true

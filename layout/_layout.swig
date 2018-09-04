@@ -103,6 +103,7 @@
   {% block script_extra %}{% endblock %}
 
   {% include '_scripts/boostrap.swig' %}
+  {% if theme.wechat_qrcode.enable %}{% include '_scripts/wechat.swig' %}{% endif %}
 
   {% include '_third-party/comments/index.swig' %}
   {% include '_third-party/search/index.swig' %}

@@ -18,6 +18,11 @@
     {% if theme.sidebar.onmobile %}
       <div id="sidebar-dimmer"></div>
     {% endif %}
+    {% if theme.wechat_qrcode.enable %}
+      <div class="wechat-qrcode">
+        <img src="{{ theme.wechat_qrcode.qrcode }}" width="130px" height="130px" />
+      </div>
+    {% endif %}
     <div class="sidebar-inner">
 
       {% set display_toc = is_post and theme.toc.enable or is_page and theme.toc.enable %}

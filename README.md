@@ -8,6 +8,7 @@ NextBlue is compatible with all the NexT settings, but in addition you are able 
 - Choose a theme color
 - Add a banner image
 - Use icons from Iconfont as social icons (useful when you cannot find suitable icons in Font Awesome)
+- Add WeChat social icon to show WeChat QR code 
 - Add link to the author name in the sidebar
 - Display "powered by" and "theme by" information in the sidebar
 - Customize the display of tags in the posts
