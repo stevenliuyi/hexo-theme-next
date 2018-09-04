@@ -29,7 +29,6 @@
   font-style:normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 2px;
 }
 
 .icon-zhihu:before { content: "\e501"; }
@@ -173,12 +172,33 @@ a:hover {
   border: none;
 }
 
+.site-state {
+  display: flex !important;
+  justify-content: center;
+}
+
+.links-of-author {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-of-author-item {
+  width: 20px;
+  margin: 0px 5px;
+}
+
 .links-of-author-item > a {
   border: none;
+  margin: 0px;
 }
 
 .links-of-author-item > a:before {
   display:none; 
+}
+
+.links-of-author-item-zhihu > a {
+  margin-bottom: -2px !important;
 }
 
 .post-toc ol a,

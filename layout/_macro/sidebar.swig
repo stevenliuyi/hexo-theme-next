@@ -112,11 +112,11 @@
           {% if theme.social %}
             <div class="links-of-author motion-element">
               {% for name, link in theme.social %}
-                <span class="links-of-author-item">
+                <span class="links-of-author-item links-of-author-item-{{ link.split('||')[1] | trim }}" data-balloon="{{ name }}" data-balloon-pos="up">
                   {% if theme.exturl && theme.social_icons.exturl %}
-                    <span class="exturl" data-url="{{ link.split('||')[0] | trim }}" title="{{ name }}">{#
+                    <span class="exturl" data-url="{{ link.split('||')[0] | trim }}">{#
                 #}{% else %}{#
-                  #}<a href="{{ link.split('||')[0] | trim }}" target="_blank" title="{{ name }}"{% if theme.seo %} rel="external nofollow"{% endif %}>{#
+                  #}<a href="{{ link.split('||')[0] | trim }}" target="_blank"{% if theme.seo %} rel="external nofollow"{% endif %}>{#
                 #}{% endif %}{#
                   #}{% if theme.social_icons.enable && !theme.iconfont.includes(name) %}{#
                     #}<i class="fa fa-fw fa-{{ link.split('||')[1] | trim | default('globe') }}"></i>{#
