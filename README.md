@@ -14,7 +14,9 @@ NextBlue is compatible with all the NexT settings, but in addition you are able 
 - Customize the display of tags in the posts
 - Change the style of Needmoreshare2 button to match the theme
 
-Besides, there is a new tag `wp` you can use to easily link to Wikipedia articles.
+Besides, there are some other features:
+- A new tag `wp` you can use to easily link to Wikipedia articles
+- Additional support for Chinese typography, such as the emphasis mark
 
 ### Installation
 

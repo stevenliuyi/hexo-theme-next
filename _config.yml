@@ -199,7 +199,7 @@ site_state: true
 social:
   个人主页: https://yliu.io || user
   GitHub: https://github.com/stevenliuyi || github-alt
-  E-Mail: mailto:stevenliuyi@gmail.com || envelope
+  E-Mail: mailto:me@yliu.io || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -302,7 +302,7 @@ sidebar:
 # ---------------------------------------------------------------
 
 # Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: true
+scroll_to_more: false
 
 # Automatically saving scroll position on each post/page in cookies.
 save_scroll: false
