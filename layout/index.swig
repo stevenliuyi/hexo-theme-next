@@ -9,7 +9,7 @@
 {% endblock %}
 
 {% block content %}
-  <section id="posts" class="posts-expand">
+  <section id="posts" class="posts-expand {% if theme.han %} han-init-context{% endif %}">
     {% for post in page.posts %}
       {{ post_template.render(post, true) }}
     {% endfor %}

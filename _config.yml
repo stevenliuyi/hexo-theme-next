@@ -74,6 +74,9 @@ needmoreshare_style:
   float: next
   monochrome: true # only works when Needmoreshare2 icon style set to default
 
+# If you enabled han-css in the Third Party Services Settings, you can enable this setting for some Chinese typography changes that are customized to this theme
+han_ext: true
+
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
@@ -508,12 +511,12 @@ math:
 
 # Han Support
 # Dependencies: https://github.com/theme-next/theme-next-han
-han: false
+han: true
 
 # Pangu Support
 # Dependencies: https://github.com/theme-next/theme-next-pangu
 # For more information: https://github.com/vinta/pangu.js
-pangu: true
+pangu: false
 
 # Swiftype Search API Key
 #swiftype_key:

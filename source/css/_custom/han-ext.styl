@@ -1,0 +1,31 @@
+if (hexo-config('han_ext')) {
+  .post-body {
+    font-family: Lato, "PingFang SC", "Lantinghei SC", "Microsoft YaHei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans-serif;
+    font-weight: 300;
+  }
+  
+  .post-body em:lang(zh) {
+    text-emphasis: dot;
+    -webkit-text-emphasis: dot;
+    font-family: inherit;
+  }
+  
+  .post-body i:lang(zh) {
+    font-family: inherit;
+    font-style: italic;
+    font-weight: inherit;
+  }
+  
+  .post-body blockquote:lang(zh) {
+    font-family: Baskerville, Georgia, "Liberation Serif", "Times New Roman", "Kaiti SC", STKaiti, Kaiti, "AR PL UKai CN", KaiTi, KaiTi_GB2312, DFKai-SB, serif;
+    font-weight: inherit;
+  }
+  
+  .post-body h-char.bd-hangable:lang(zh) > h-inner {
+    font-weight: inherit;
+  }
+  
+  ruby > rt {
+    font-size: 60%;
+  }
+}
