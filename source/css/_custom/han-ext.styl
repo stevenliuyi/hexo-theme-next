@@ -18,7 +18,7 @@ if (hexo-config('han_ext')) {
   
   .post-body blockquote:lang(zh) {
     font-family: Baskerville, Georgia, "Liberation Serif", "Times New Roman", "Kaiti SC", STKaiti, Kaiti, "AR PL UKai CN", KaiTi, KaiTi_GB2312, DFKai-SB, serif;
-    font-weight: inherit;
+    font-weight: 400;
   }
   
   .post-body h-char.bd-hangable:lang(zh) > h-inner {
@@ -27,5 +27,14 @@ if (hexo-config('han_ext')) {
   
   ruby > rt {
     font-size: 60%;
+  }
+
+  article {
+    line-height: inherit;
+  }
+
+  .no-kaiti i,
+  .no-kaiti var {
+    border-bottom: none;
   }
 }
