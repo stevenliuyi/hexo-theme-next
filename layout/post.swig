@@ -3,7 +3,8 @@
 {% import '_macro/sidebar.swig' as sidebar_template %}
 
 
-{% block title %}{{ page.title }} | {{ title }}{% endblock %}
+{% set page_plain_title = page.title | replace('<[^>]*>', '', 'g') %}
+{% block title %}{{ page_plain_title }} | {{ title }}{% endblock %}
 
 {% block page_class %}page-post-detail{% endblock %}
 
