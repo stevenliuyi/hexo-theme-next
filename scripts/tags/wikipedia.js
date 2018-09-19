@@ -13,7 +13,7 @@ function wpLink(args) {
   if (langIsValid && args.length === 3) display = args[2].trim();
   if (!langIsValid && args.length === 2) display = args[1].trim();
 
-  return '<a target="_blank" href="https://' + lang + '.wikipedia.org/wiki/' + encodeURIComponent(article) + '">' + display + '</a>'
+  return '<a target="_blank" href="https://' + lang + '.wikipedia.org/wiki/' + encodeURIComponent(article.replace(/ /g, '_')) + '">' + display + '</a>'
 }
 
 hexo.extend.tag.register('wp', wpLink, { ends: false });
