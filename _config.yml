@@ -609,7 +609,7 @@ needmoreshare2:
       iconStyle: default
       boxForm: horizontal
       position: middleRight
-      networks: Weibo,Wechat,QQZone,Twitter,Facebook
+      networks: Weibo,Wechat,QQZone,Twitter,Facebook,ShortURL
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/

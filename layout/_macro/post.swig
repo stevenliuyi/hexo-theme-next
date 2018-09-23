@@ -437,6 +437,10 @@
       {% endif %}
       {% endif %}
 
+      {% if post.id %}
+        <span class="post-id">{{ post.id }}</span>
+      {% endif %}
+
       {% if not is_index and (post.prev or post.next) %}
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
