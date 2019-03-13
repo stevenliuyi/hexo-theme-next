@@ -100,7 +100,7 @@ favicon:
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: false
 
 footer:
   # Specify the date when the site was setup.
@@ -214,6 +214,7 @@ social:
   #Skype: skype:yourname?call|chat || skype
   知乎: https://www.zhihu.com/people/stevenliuyi || zhihu
   微信: https://u.wechat.com/ECGyCuwsPOVsnepYwv6dXa4 || weixin
+  RSS: /atom.xml || rss
 
 social_icons:
   enable: true
